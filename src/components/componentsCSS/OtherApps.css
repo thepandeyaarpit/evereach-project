@@ -1,0 +1,25 @@
+.heading {
+    font-size: 22px; 
+    font-weight: 800; 
+    padding: 40px;
+    font-family: 'Poppins';
+}
+.soon {
+    color: #03EA6A; 
+    font-size: 30px; 
+    font-style: italic;
+    margin: 15px 0;
+}
+.btnCancel {
+    border-radius: 8px; 
+    margin: 0 8px; 
+    height: 40px; 
+    width: 125px;
+}
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+.imageIcon {
+    height: 75px;
+}

@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.heading-header{
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: 12px;
+  /* background-color: #f3f3f3; */
+}
+
+
+.g-signin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.makeStyles-myInputBox-2{
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #555;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #03EA6A;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  font-size: 15px;
+  margin-left: -1em;
+}
+
+

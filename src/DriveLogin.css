@@ -1,0 +1,123 @@
+
+/* Drive Login */
+
+.pageHeader {
+    padding: 15px 45px;
+    display: flex; 
+    justify-content: space-between;
+  }
+  .imageStyle {
+    height: 35px;
+    padding: 16px;
+  }
+  .navs{
+    display: 'flex';
+    /* margin: 0 22px; */
+  }
+  .navItems {
+    text-decoration: none;
+    color: #110828;
+    /* margin: '0 22px'; */
+    padding: 15px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .navButton {
+    height: 45px;
+    width: 110px; background-color: #03EA6A; padding: 5px;
+    border-radius: 25px; border: none; color: white; cursor: pointer;
+    margin-top: -8px;
+  };
+  
+  .bodyDiv{
+    width: '100%';
+    display: 'flex';
+  }
+  .firstDiv{
+    width: '50%';
+  }
+  .secondDiv{
+    width: '50%';
+  }
+  .textPara {
+    color: #555555; margin: 5% 8% 20% 18%; font-family: 'Poppins'; line-height: 1.8; font-weight: 800; font-size: 15px;
+  }
+  .loginButton {
+    background-color: #110828; margin: -80px 18%; height: 55px; width: 330px; border-radius: 30px; color: white; display: flex; justify-content: space-between; border: none; outline: none; cursor: pointer;
+  }
+  .iconFirst {
+    height: 35px; margin-top: 8px; margin-left: 5px;
+  }
+  .btnText {
+    margin:3% 8%; font-size: 18px; font-weight: 500;
+  }
+  .iconSecond {
+    height: 44px; margin-top: 4px; margin-right: 3px;   
+  }
+  .mainImage {
+    height: 570px; 
+    width: 710px; 
+    margin-left: -55px; 
+    margin-top: 25px;
+  }
+  
+  .DrievMainBody{
+    background-color: #E9ECF2; min-width: 100%; margin: 0; overflow: 'hidden'; height: auto;
+  }
+
+
+
+
+  @media (max-width: 1024px){
+    .DrievMainBody{
+      height: 100vh;
+    }
+    .loginButton{
+      margin: -50px 18%;
+    }
+  }
+
+
+
+  /* @media (max-width: 991px){
+    .mainImage{
+      
+    }
+  } */
+  @media (max-width: 897px){
+    .navs{
+      display: none;
+    }
+    .mainImage{
+      display: none;
+    }
+    .heading{
+      display: none;
+    }
+    .textPara{
+      display: none;
+    }
+    .buttonStyle{
+      /* margin: auto; */
+      
+    }
+    .imageStyle{
+      /* display: none; */
+    }
+  
+    /* .btnText{
+      margin-top: 15px;
+    }
+    .DrievMainBody{
+      min-width: 100%;
+      
+    } */
+  }
+  
+  /* @media(max-width: 426px){
+    .imageStyle{
+      height: 26px;
+      margin-left: -30px;
+    }
+  } */

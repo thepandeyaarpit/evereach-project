@@ -1,0 +1,77 @@
+.mainBox{
+    width: 100% !important; display:flex !important; margin-top: -10px !important; height: 80vh !important;
+}
+.firstContent{
+    width: 30% !important; border-right: 1px solid #03EA6A;
+}
+.secondContent{
+    width: 70% !important;
+    margin-top: -2% !important;
+    margin-left: 15px !important;
+}
+.userDetail{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.buttonEdit{
+    height: 35px !important; 
+    border-radius: 12px !important; 
+    margin-top: 2% !important;
+    border: 2px solid #000 !important; margin: 10px 20px !important;
+}
+.imageEdit{
+    height: 13px !important; 
+    margin-right: 5px !important;
+}
+.textEdit{
+    font-size: 11px !important; 
+    text-transform: none !important;
+}
+.userImage{
+    height: 60px !important;
+     width: 60px !important; border-radius: 48px !important;
+}
+.userName{
+    font-size: 20px !important; font-weight: 800 !important; font-family: 'Poppins' !important;
+}
+.userDesignation{
+    font-size: 14px !important; font-weight: 700 !important; font-family: 'Poppins' !important;
+}
+.userCardDetail{
+    margin-left: -20px !important; margin-top: 5px !important;
+}
+.userCard{
+    display: flex !important; margin-top: -35px !important; margin-left: -30px !important; 
+}
+.card{
+    width: 500px !important; height: 90px !important;
+}
+.sidebar-overflow{
+    overflow-y: auto;
+    height: 65vh;
+}
+.sidebar-overflow::-webkit-scrollbar{
+    width: 0;
+}
+@media(max-width: 768px){
+    .secondContent{
+        display: none !important;
+        width: 0 !important;
+    }
+    .firstContent{
+        width: 100% !important;
+        border: none !important;
+        /* display: inline-block !important; */
+    }
+    .mainSideBar{
+        justify-content: center;
+    }
+    .cardSearchBar{
+        justify-content: center;
+    }
+}
+@media screen and(max-width: 426px){
+    .firstContent{
+        border-right: none !important;
+    }
+}

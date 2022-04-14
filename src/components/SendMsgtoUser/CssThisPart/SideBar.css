@@ -1,0 +1,109 @@
+.MainCard {
+    width: 300px !important;
+    height: 90px !important;
+    display: inline-block !important; 
+    border-radius: 20px !important; 
+    border: 1px solid rgb(65, 64, 64) !important;   
+}
+.MainCard:hover{
+    background: #110828 !important;
+        color: #fff !important;
+        cursor: pointer !important;
+}
+.imgPhone1 {
+    height: 12px !important;
+    margin-right: 3px !important;
+}
+.imgMail {
+  height: 9px !important;
+  margin-right: 3px !important;
+}
+
+.mainSideBar{
+    width: 100% !important; 
+    display: flex !important;
+    margin-top: -10px !important; 
+    border-radius: 12px !important;
+    
+}
+.cardSideBar{
+    display: flex !important; 
+    margin-top: -20px !important; 
+    margin-left: -10px !important;
+}
+.userImageSideBar{
+    height: 40px !important; 
+    width: 40px !important; 
+    border-radius: 48px !important;
+}
+.textSideBar{
+    margin-left: -20px !important;
+}
+.userNameSideBar{
+    font-size: 14px !important; 
+    font-weight: 800 !important; 
+    font-family: 'Poppins' !important;
+}
+.userSubnameSideBar{
+    font-size: 11px !important; 
+    font-weight: 700 !important; 
+    font-family: 'Poppins' !important;
+}
+.copyButton{
+    height: 12px !important; 
+    margin-left: 58px !important;
+}
+.secondTextSideBar{
+    display: flex !important;
+    font-size: 11px !important; 
+    justify-content: space-around !important; 
+    margin-top: -45px !important;
+}
+.MuiContainer-root{
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 426px){
+    .mainSideBar{
+        margin-right: 5px !important;
+    }
+}
+@media screen and (max-width: 376px){
+    .MuiSvgIcon-root{
+        margin: -5px !important;
+    }
+    .imgPhone1{
+        display: none;
+    }
+    .imgMail{
+        display: none;
+    }
+}
+@media screen and (max-width: 326px){
+    .MuiCardContent-root{
+        padding: 16px 3px !important;
+    }
+    .userImageSideBar{
+        margin: 0 20px !important;
+    }
+    .userNameSideBar{
+        margin-left: 20px !important;
+    }
+    .userSubnameSideBar{
+        margin-left: 20px !important;
+    }
+    .copyButton{
+        margin-left: 90px !important;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 426px){
+    .MuiCardContent-root:last-child{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 344px !important;
+    }
+} */

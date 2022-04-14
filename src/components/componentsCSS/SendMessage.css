@@ -1,0 +1,50 @@
+.btnCancel {
+    border-radius: 8px ; 
+    margin: 0 8px ; 
+    height: 40px ; 
+    width: 125px ;
+    background-color: #fff ;
+    border: 1px solid #000 ;
+    color: #000 ;
+    border-radius: 8px ;
+    cursor: pointer ;
+}
+.text{
+    font-size: 13px !important;
+}
+.btnSend {
+    background-color: #03EA6A ; 
+    color: #FFFFFF ; 
+    width: 125px ; 
+    height: 40px ; 
+    border-radius: 8px ; 
+    margin: 0 8px ;
+    cursor: pointer ;
+    border: none ;
+    outline: none ;
+}
+.heading {
+    font-size: 22px !important; 
+    font-weight: 800 !important; 
+    padding: 20px !important;
+}
+.sideText {
+    font-size: 12px ; 
+    padding: 5px ; 
+    color: #03EA6A ; 
+    font-style: italic ;
+}
+.receipts{
+    margin: 3% 0 ;
+}
+.input-box-text{
+    font-size: 12px;
+    margin: 2% 0;
+}
+.MessageInputbox{
+    min-width: 100% ;
+}
+
+ul li::before{
+    display: none ;
+}

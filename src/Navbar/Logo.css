@@ -1,0 +1,36 @@
+.mainDiv{
+    display: flex;
+}
+.profileImg{
+    height: 60px;
+     width: 60px;
+      margin-top: 15px;
+       border-radius: 48px;
+}
+.textClasses{
+    margin-top: 5px; margin-left: 20px;
+}
+.userName{
+    font-size: 17px;
+}
+.userEmail{
+    margin-top: -15px; font-size: 12px;
+}
+
+@media (max-width: 991px){
+    .userName{
+        display: none;
+    }
+    .userEmail{
+        display: none;
+    }
+}
+
+@media (max-width: 360px){
+    .textClasses{
+        margin: 0 !important;
+    }
+    .mainDiv{
+        margin-left: -10px;
+    }
+}

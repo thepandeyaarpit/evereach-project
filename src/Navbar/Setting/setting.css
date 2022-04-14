@@ -1,0 +1,12 @@
+.textContent {
+    display: 'flex';
+    justify-content: 'space-between';
+    width: '350px';
+    padding: '15px'; 
+    border-bottom: '1px solid rgb(211, 211, 211)';
+}
+.textFieldContent {
+    font-weight: '800'; 
+    font-size: '14px';
+    color: 'rgb(26, 26, 26)';
+}

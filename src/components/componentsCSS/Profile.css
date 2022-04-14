@@ -1,0 +1,89 @@
+.imgPhone1 {
+    height: 13px !important;
+    margin-right: 3px !important;
+}
+.imgMail {
+  height: 11px !important;
+  margin-right: 3px !important;
+}
+.profileCard {
+  width: 285px !important; 
+  height: 90px !important; 
+  display: inline-block !important; 
+  margin: 9px !important; 
+  border-radius: 20px !important; 
+  font-family: 'Poppins' !important;
+  border: 1px solid #464646 !important;
+  cursor: pointer !important;
+}
+.userImg {
+  height: 40px !important; 
+  width: 40px !important; 
+  border-radius: 48px !important;
+  margin-left: -15px !important;
+}
+.memberName {
+  font-size: 15px !important; 
+  font-weight: 700 !important;
+  font-family: 'Poppins' !important;
+  color: #000000 !important;
+}
+.memberWork {
+  font-size: 11px !important; 
+  font-weight: 600 !important;
+  font-family: 'Poppins' !important;
+  color: #000000 !important;
+}
+.secondryData {
+  display: flex !important; 
+  justify-content: space-between !important; 
+  margin-top: -45px !important; 
+  font-family: 'Poppins' !important;
+  font-size: 11px !important;
+}
+/* .phone {
+  display: flex !important; 
+  align-items: center !important; 
+  margin-top: -7px !important;
+} */
+.upperPart{
+    display: flex !important; margin-top: -20px !important;
+}
+.profileTitle{
+    margin-left: -20px !important;
+}
+.copyButton{
+    height: 12px !important; margin-left: 58px !important; color: #000 !important;
+}
+.userPhone{
+    font-size: 11px !important; font-weight: 700 !important; font-family: 'Poppins' !important;
+}
+/* .email{
+    display: flex !important; align-items:center !important;
+} */
+.userEmail{
+    font-size: 11px !important; font-weight: 700 !important; font-family: 'Poppins' !important;
+}
+
+@media (max-width: 326px){
+  .profileCard{
+    margin: 9px 36px !important; 
+  }
+  .userImg{
+      margin: 0 20px !important;
+  }
+  .memberName{
+      margin-left: 12px !important;
+  }
+  .memberWork{
+      margin-left: 12px !important;
+  }
+  .copyButton{
+      margin-left: 85px !important;
+  }
+}
+/* @media(max-width: 426px){
+  .profileCard{
+    margin: 9px 45px !important;
+  }
+} */

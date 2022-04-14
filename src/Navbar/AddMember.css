@@ -1,0 +1,248 @@
+
+/* Add Member start */
+
+.myInputBox {
+  width: 45% ;
+  margin: 10px ;
+  font-size: 12px ;
+  border-radius: 12px;
+  border: 1px solid #555;
+  height: 35px ;
+  /* overflow: hidden; */
+}
+/* .fileButton{
+  width: 46% ;
+  margin: 10px ;
+  font-size: 12px ;
+  border-radius: 12px;
+  height: 35px ;
+} */
+/* input[type="file"]{
+  margin-top: 20px;
+    margin-left: 45px;
+} */
+.image-class{
+  position: relative;
+}
+.iconUpload{
+  position: absolute;
+  margin-left: 42%;
+  margin-top:22px;
+}
+.memberDialogBox {
+  margin: 30px;
+}
+.dialogBoxMemberBtn {
+  height: 100vh;
+  margin-left: 290px;
+  margin-top: 10.25% !important;
+}
+.memberBtn {
+  background-color: #110828;
+  color: #FFFFFF; 
+  /* width: 140px;  */
+  font-weight: 500; 
+  text-transform: none;
+  border: none; 
+  outline: none;
+  padding: 10px;
+  border-radius: 12px; 
+  cursor: pointer;
+  height: 35px;
+  font-size: 12px;
+  margin: 0 1%;
+  display: flex;
+  
+}
+.memberBtn:hover{
+  background: #110828;
+}
+.AllDialogButton .text,
+.AllDialogButton .text-add,
+.memberBtn .text {
+  margin-left: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+.AllDialogButton .text-add{
+  color: #000 !important;
+}
+.trimember {
+  width: 0px;
+  height: 0px;
+  border-bottom: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  margin-top: 10% ;
+  margin-left: 50% ;
+}
+.AllDialogButton {
+  margin-top: -85px;
+  margin-left: 10%;
+  display: flex;
+}
+.btnFirst {
+  background-color: #FFFFFF; 
+  color: #000000; 
+  border-radius: 10px; 
+  margin: 5px;
+  height: 40px;
+}
+.btnFirst:hover{
+  background: #110828;
+}
+
+.btnSecond {
+  background-color: #FFFFFF; 
+  color: #000000; 
+  border-radius: 10px; 
+  margin: 5px;
+  height: 40px;
+  display: flex;
+}
+.btnSecond:hover{
+  background: #fff;
+}
+
+/* .inputBox{
+   width: 250px;
+   height: 38px;
+} */
+.sameAll{
+  display: flex;
+}
+.imgLogs {
+  /* margin-right: 5px; */
+  height: 17px;
+}
+.imgMember{
+  height: 17px; color: #03EA6A;
+}
+.btnSubmit{
+  background-color: #110828;
+  padding: 10px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  margin: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 376px){
+  .memberBtn{
+    height: 30px;
+  }
+  .imgMember{
+    margin-top: -3px;
+  }
+}
+
+
+
+@media(max-width: 1441px){
+  /* .dialogBoxMemberBtn{
+    margin-top: -13px !important;
+  } */
+  .AllDialogButton{
+    margin-left: 57.8% !important;
+  }
+  .trimember{
+    margin-left: 63.5% !important;
+    margin-top: 28px !important;
+  }
+}
+
+ @media(max-width:1025px){
+  .dialogBoxMemberBtn{
+    margin-top: 130px !important;
+    margin-left: 20% !important;
+  }
+  .AllDialogButton{
+    margin-left: 43.3% !important;
+  }
+  .trimember{
+    margin-left: 50% !important;
+    margin-top: 17px !important;
+  }
+}
+
+
+@media (max-width:769px){
+  .dialogBoxMemberBtn{
+    margin-top: 46px !important;
+    /* height: auto !important; */
+    min-width: 70% !important;
+    margin-left: 0% !important;
+  }
+  .AllDialogButton{
+    margin-left: 71.2% !important;
+    margin-top: -70.5px !important;
+  }
+  .trimember{
+    margin-left: 73% !important;
+    margin-top: 17px !important;
+  }
+  .btnSecond{
+    min-width: 0 !important;
+    border-radius: 48px !important;
+    /* margin: 0% !important; */
+  }
+  .iconUpload{
+    display: none;
+  }
+  .text{
+    display: none !important;
+  }
+  .text-add{
+    display: none !important;
+  }
+}
+
+@media (max-width:426px){
+  .sameAll{
+    flex-direction: column !important;
+    /* margin-right: 20% !important; */
+  }
+  .dialogBoxMemberBtn{
+    margin-left: -10% !important;
+    min-width: 115% !important;
+  }
+  .AllDialogButton{
+    margin-left: 54.3% !important;
+  }
+  .trimember{
+    margin-left: 57% !important;
+  }
+  .iconUpload{
+    display: none;
+  }
+  .myInputBox{
+    width: 100% !important;
+    margin-left: -8px !important;
+
+    /* flex-direction: column !important; */
+  }
+}
+
+@media(max-width: 376px){
+  .AllDialogButton{
+    margin-left: 49% !important;
+    margin-top: -69px !important;
+  }
+  .trimember{
+    margin-left: 52% !important;
+  }
+}
+
+@media (max-width: 321px){
+  .AllDialogButton{
+    margin-left: 44% !important;
+    margin-top: -69px !important;
+  }
+  .trimember{
+    margin-left: 48% !important;
+  }
+} 

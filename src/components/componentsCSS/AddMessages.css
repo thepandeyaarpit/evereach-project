@@ -1,0 +1,142 @@
+.sideText{
+    cursor: pointer;
+}
+.addMessageDialogBox{
+    margin-top: 5%;
+}
+.heading-addmessage{
+    font-size: 22px !important; font-weight: 800 !important; padding: 20px !important; 
+}
+/* .text-area{
+    height: 15vh !important; width: 100%; border-radius: 14px;
+}
+.small-letter{
+    font-size: 12px !important; 
+    padding: 5px; 
+    font-style: italic;
+}
+.btn-cancel{
+    border-radius: 8px; margin: 0 8px; height: 40px; width: 125px; 
+    border: 1px solid #000000; color: #000000; cursor: pointer;
+}
+.btn-add{
+    background-color: #03EA6A; color: #FFFFFF; width: 125px; height: 40px; 
+    border-radius: 8px; margin: 0 8px; border: none;
+    cursor: pointer;
+}
+.btn-add:hover{
+    background-color: #01b652;
+}
+.main-div{
+    overflow-Y: scroll; height: 28vh;
+}
+.all-message{
+    font-size: 22px !important; font-weight: 600 !important; padding: 20px !important;
+}
+.show-data-table{
+    justify-content: space-between; display: flex;
+}
+.write-message{
+    font-size: 14px !important;
+}
+.btnadd{
+    margin: 20px;
+}
+
+.btns{
+    display: flex;
+}
+.end-btn{
+    height: 25px;
+} */
+
+
+
+
+
+  
+  .todo-form {
+    margin-bottom: 32px;
+  }
+  
+  .todo-input {
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #555;
+    width: 95%;
+    height: 20vh;
+    outline: none;
+    background: transparent;
+    color: #000;
+  }
+  
+  .todo-input::placeholder {
+    color: #000;
+  }
+  
+  .todo-input.edit {
+    border: 1px solid #555;
+  }
+  
+  .todo-button.edit {
+    padding: 16px 22px;
+  }
+ 
+  .todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #000;
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  .buttons-All{
+      text-align: center;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 5px;
+    color: #000;
+  }
+  
+  .edit-icon {
+    color: #000;
+  }
+  .todo-button-edit,
+  .todo-button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #03EA6A;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 2%;
+}
+.todo-button-edit:hover,
+  .todo-button:hover{
+    background-color: #06cc5f;
+  }
+.todo-cancel-btn{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.small-character{
+  font-size: 12px;
+  font-style: italic;
+  float: right;
+}

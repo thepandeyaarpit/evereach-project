@@ -1,0 +1,121 @@
+.btnPremium{
+    margin: 10px;
+        background-color: #03EA6A;
+        width: 140px;
+        height:35px; 
+        border: none;
+        outline: none;
+        font-weight: 600; 
+        border-radius: 12px; 
+        font-size: 12px;
+        padding: 10px;
+        color: #fff;
+        cursor: pointer;
+        text-transform: none;
+}
+.btnPremium:hover{
+    background: #03EA6A;
+    color: #fff;
+}
+/* .MuiDialog-root .premiumDialogBox{
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+    margin-top: 20% !important;
+} */
+.premiumDialogBox{
+    margin-top: -50% !important;
+}
+.headingMember{
+    font-size: 20px !important; font-weight: 700 !important; padding: 25px !important; 
+    font-family: 'Poppins' !important; margin-left: 25px !important;
+}
+.dialogContent{
+    display: flex;
+}
+.cancelButton{
+    border: none; outline: none; height: 35px; background-color: #fff; cursor: pointer;
+    width: 125px; margin: 10px; border-radius: 10px; color: #110828; font-weight: 700; border: 1px solid #110828;
+}
+.buyButton{
+    border: none; outline: none; height: 35px; cursor: pointer;
+    width: 125px; margin: 10px; border-radius: 10px; color: #FFFFFF; font-weight: 700; background-color: #03EA6A;
+}
+
+
+
+
+
+@media (max-width: 376px){
+    .memberBtn{
+      height: 30px;
+    }
+    .imgMember{
+      margin-top: -3px;
+    }
+  }
+
+  @media(max-width: 1441px){
+      .premiumDialogBox{
+          margin-top: -2% !important;
+          height: 105vh !important;
+          
+      }
+  }
+
+  @media(max-width:1025px){
+      .premiumDialogBox{
+        height: 105vh !important;
+        margin: 8% 0 !important;
+      }
+  }
+
+  @media(max-width: 769px){
+    .dialogContent{
+        display: inline-flex !important;
+        
+        /* flex-direction: column; */
+    }
+  }
+
+  @media(max-width: 426px){
+      .premiumDialogBox{
+          margin-left: -35px !important;
+        height:110vh !important; 
+          min-width: 112% !important;
+          padding: 10% 0 !important;
+          
+      }
+      .dialogContent{
+          width: 112% !important;
+          flex-direction: column !important;
+          margin-left: -20px !important;
+      }
+  }
+
+  @media (max-width: 376px){
+      .premiumDialogBox{
+          /* padding: 0% !important; */
+          width: 113% !important;
+          margin-left: -35px !important;
+      }
+      .dialogContent{
+          width: 123% !important;
+          border-radius: 24px !important;
+          margin-left: -35px !important;
+      }
+  }
+
+  @media (max-width: 321px){
+    .premiumDialogBox{
+        /* padding: 0% !important; */
+        height:115vh !important; 
+        margin-left: -10% !important;
+        width: 115% !important;
+    }
+    .dialogContent{
+        width: 127% !important;
+        border-radius: 24px !important;
+        margin-left: -35px !important;
+    }
+}

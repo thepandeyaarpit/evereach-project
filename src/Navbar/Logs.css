@@ -1,0 +1,197 @@
+.MuiDialog-container .MuiDialog-paper{
+    margin-top: -90px  !important;
+    margin-left: -19px  !important;
+}
+.MuiDialog-container .MuiDialog-paper{
+  overflow: visible  !important;
+}
+
+.MuiDialog-container .MuiPaper-rounded{
+  border-radius: 25px  !important;
+}
+
+.btnLogs{
+  border: none  !important; 
+  outline: none  !important;
+  padding: 10px  !important;
+  background: white  !important; 
+  border-radius: 12px  !important; 
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1)  !important;
+  cursor: pointer  !important;
+  height: 35px  !important;
+  font-size: 12px  !important;
+  margin: 0 1%  !important;
+  display: flex  !important;
+}
+
+
+.btnLogs:hover{
+  background: #03EA6A  !important;
+  color: #fff  !important;
+}
+
+
+
+.title {
+  font-size: 21px   !important;
+  font-weight: 800   !important;
+  padding: 10px 25px   !important;
+  margin-left: 20px   !important;
+  margin-top: 20px   !important;
+  font-family: 'Poppins'   !important;
+}
+.imgLogs {
+  height: 17px  !important;
+}
+.btnLogs .text {
+  font-size: 11px  !important;
+  font-weight: 600  !important;
+  margin-left: 5px  !important;
+  font-family: 'Poppins'  !important;
+}
+.myDialogBox {
+  margin-left: 51.5% !important;
+  width: 45%  !important;
+  margin-top: 45px !important;
+}
+.coneLogs {
+  width: 0px  !important;
+  height: 0px  !important;
+  border-bottom: 20px solid #fff  !important;
+  border-right: 20px solid transparent  !important;
+  border-left: 20px solid transparent  !important;
+  margin-top: 10px  !important;
+  margin-left: 50%  !important;
+}
+.buttons {
+  margin-top: -70px  !important;
+  margin-left: 48%  !important;
+  display: flex;
+}
+
+
+.btnFirst {
+  display: flex  !important;
+  padding: 10px  !important;
+  border: none  !important;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 10%)  !important;
+  height: 35px  !important;
+  margin: 0 1%  !important;
+  cursor: pointer  !important;
+  
+}
+.btnFirst:hover{
+  background: #03EA6A  !important;
+  color: #fff  !important;
+}
+
+
+
+.btnSecond {
+  color: red  !important;
+  background-color: #fff  !important;
+  margin-left: 15px  !important;
+  padding: 10px  !important;
+  height: 35px  !important;
+  border-radius: 12px  !important;
+  margin-top: 0  !important;
+  border: none  !important;
+  outline: none  !important;
+  font-size: 11px  !important;
+}
+.btnSecond .textRed{
+  font-size: 11px  !important;
+}
+@media (max-width: 376px){
+  .btnLogs{
+    height: 30px  !important;
+  }
+  .imgLogs{
+    margin-top: -3px  !important;
+  }
+}
+
+
+@media(max-width: 1441px){
+  /* .myDialogBox{
+    margin-top: -280px !important;
+  } */
+  .buttons{
+    margin-left: 58% !important;
+  }
+  .coneLogs{
+    margin-left: 61% !important;
+    margin-top: 13px !important;
+  }
+}
+
+@media(max-width:1025px){
+  .myDialogBox{
+    margin-top: 48px !important;
+    margin-left: 50% !important;
+  }
+  .buttons{
+    margin-left: 43% !important;
+  }
+  .coneLogs{
+    margin-left: 47% !important;
+    margin-top: 13px !important;
+  }
+}
+
+
+@media (max-width:769px){
+  .myDialogBox{
+    margin-top: 22px !important;
+    height: auto !important;
+    min-width: 70% !important;
+    margin-left: 30% !important;
+    /* margin-right: 20% !important; */
+  }
+  .buttons{
+    margin-left: 70.2% !important;
+    margin-top: -71px !important;
+  }
+  .coneLogs{
+    margin-left: 70% !important;
+    margin-top: 15px !important;
+  }
+}
+
+@media (max-width:426px){
+  .myDialogBox{
+    margin-left: -9% !important;
+    min-width: 115% !important;
+    margin-top: 10% !important;
+  }
+  .buttons{
+    margin-left: 67.4% !important;
+    /* margin-top: -71px !important; */
+  }
+  .coneLogs{
+    margin-left: 66% !important;
+  }
+}
+
+@media(max-width: 376px){
+
+  .buttons{
+    margin-left: 63.6% !important;
+    margin-top: -69px !important;
+  }
+
+}
+
+@media (max-width: 321px){
+  .myDialogBox{
+    margin-top: -3% !important;
+    margin-left: -9% !important;
+  }
+  .buttons{
+    margin-top: -69px !important;
+    margin-left: 61% !important;
+  }
+  .coneLogs{
+    margin-left: 61% !important;
+  }
+}

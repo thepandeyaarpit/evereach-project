@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import DriveLogin from './DriveLogin';
+import SendMessage from './components/SendMessage';
+import SendMsgtoUser from './components/SendMsgtoUser';
+import AddMessage from './components/AddMessage';
+import TodoApp from './Todo';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <BrowserRouter>
+    {/* <App /> */}
+
+    <Switch>
+    <Redirect from="/Login" to="/" />
+      <Route exact path="/" component={App} />
+      <Route path="/DriveLogin" component={DriveLogin} />
+      <Route path="/Todo" component={TodoApp} />
+      <Route path="/Navbar/Logout" component={DriveLogin} />
+      <Route path="/components/SendMsgtoUser" component={SendMsgtoUser} />
+      <Route path="/components/SendMessage" component={SendMessage} />
+      <Route path="/components/AddMessage" component={AddMessage} />
+      <Route>
+        <h1>404 - Not Found</h1>
+      </Route>
+    </Switch>
+</BrowserRouter>
+  </>,
+
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

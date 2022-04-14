@@ -1,0 +1,23 @@
+.textPreDefined {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    font-family: 'Poppins' !important;
+    margin-top: -18px !important;
+    color: rgb(32, 32, 32) !important;
+}
+.textData {
+    font-family: 'Poppins' !important;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+}
+.detailsPerson{
+    width: 100% !important; margin-left: -20px !important; margin-top: -20px !important;
+    justify-content: center !important;
+}
+
+.userdetailcard{
+    display: inline-block !important;
+    text-align: center !important;
+    width: 200px !important;
+    height: 70px !important;
+}

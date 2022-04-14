@@ -1,0 +1,32 @@
+.heading {
+    font-size: 22px; 
+    font-weight: 800; 
+    padding: 40px;
+    font-family: 'Poppins';
+}
+.fields {
+    width: 47%; 
+    margin: 10px;
+}
+.btnCancel {
+    border-radius: 8px; 
+    margin: 0 8px; 
+    height: 40px; 
+    width: 125px;
+    border: 1px solid #000000;
+    color: #000000;
+}
+.btnSave {
+    background-color: #03EA6A; 
+    color: #FFFFFF; 
+    width: 125px; 
+    height: 40px; 
+    border-radius: 8px; 
+    margin: 0 8px;
+}
+.btnSave:hover{
+    background: "#03EA6A";
+}
+.buttonsApi{
+    margin: 35px;
+}
